@@ -11,7 +11,7 @@ const app = express();
 const port = process.env.PORT || 5000;
 
 const corsOptions = {
-  origin: "https://alfnn-10.vercel.app/",
+  origin: "https://alfnn-10.vercel.app",
 };
 
 app.use(cors(corsOptions));
