@@ -126,7 +126,7 @@ app.get("/api/blog", async (req, res) => {
 });
 
 mongoose.connect(
-  "mongodb+srv://khodorhasan17:khodorhasan22@chatapp.lk2gioe.mongodb.net/",
+  "mongodb+srv://biographyDb:A9BpQt56pcpm9tYj@cluster0.mhwkhrh.mongodb.net/",
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
